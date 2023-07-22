@@ -1,0 +1,25 @@
+
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  background-image: url('./image/whi.jpg');
+}
+
+.container{
+  width: 100%;
+  margin: 2rem auto;
+  background-color: orange;
+}
+
+.grid{
+  display: grid;
+  margin-left: 5px;
+  grid-template-columns: repeat(4,1fr);
+  gap: 0.2rem;
+  justify-content: center;
+}
